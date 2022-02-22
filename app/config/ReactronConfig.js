@@ -4,7 +4,7 @@ import sagaPlugin from 'reactotron-redux-saga';
 
 if (__DEV__) {
   // https://github.com/infinitered/reactotron for more options!
-  Reactotron.configure({ name: 'SimformRN' })
+  Reactotron.configure({ name: 'demo' })
     .useReactNative()
     .use(reduxPlugin())
     .use(sagaPlugin())

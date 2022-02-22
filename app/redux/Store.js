@@ -11,7 +11,7 @@ const sagaMiddleware = createSagaMiddleware({ sagaMonitor });
 const middleWare = [sagaMiddleware];
 
 const persistConfig = {
-  key: '@simformrn',
+  key: '@demo',
   storage: AsyncStorage,
   blacklist: ['nav', 'navigation'],
   transforms: [immutablePersistenceTransform]
